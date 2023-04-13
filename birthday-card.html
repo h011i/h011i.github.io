@@ -46,12 +46,14 @@
     .flip-card-front {
       border: 4px solid black;
       background: white;
+      position: absolute;
     }
 
     .flip-card-back {
       background-color: black;
       color: white;
       transform: rotateY(180deg);
+      position: absolute;
     }
 
     .audio-player {
@@ -59,6 +61,19 @@
       bottom: 30px;
     }
 
+    .dog {
+      position: absolute;
+      top: -70px;
+      left:400px;
+      width:100px;
+    }
+
+    .cake {
+      width:200px;
+      position: absolute;
+      left:150px;
+      top:150px;
+    }
   </style>
 </head>
 
@@ -66,10 +81,11 @@
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        FRONT OF CARD
+        <img src="images/bunting.png" />
+        <img src="images/dachshund.png" class="dog"/>
       </div>
       <div class="flip-card-back">
-        BACK OF CARD
+       <img src="images/happy-birthday.png" class="cake"/>
       </div>
     </div>
   </div>
