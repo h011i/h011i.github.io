@@ -23,4 +23,8 @@ p {
     width: 100%;
 }
 
+span {
+    text-shadow: 0 -6.25px #0c2ffb;
+}
+
 
