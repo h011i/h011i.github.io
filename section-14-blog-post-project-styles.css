@@ -142,7 +142,8 @@ footer ul li {
 
 footer li a {
     text-decoration: none;
-    color: white;
+    color: blue;
+    font-weight: bold;
 }
 
 footer li a:hover {
