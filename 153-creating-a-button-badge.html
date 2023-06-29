@@ -11,26 +11,11 @@
 </head>
 
 <body>
-    <a href="#" class="btn">
+      
+    <a href="messages" class="btn">
         Messages
-        <span id="badgeNumber" class="badge">
-
-        </span>
+        <span class="badge">3</span>
+       
     </a>
-
-    <script>
-
-        let numberOfMessages = 0;
-
-        let badgeSpan = document.querySelector('#badgeNumber');
-        badgeSpan.innerHTML = numberOfMessages;
-
-        badgeSpan.addEventListener("click", function() {
-            numberOfMessages = numberOfMessages + 1;
-            badgeSpan.innerHTML = numberOfMessages;
-        });
-
-
-    </script>
 </body>
 </html>
