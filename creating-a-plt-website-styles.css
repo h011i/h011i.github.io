@@ -1,0 +1,53 @@
+.navbar {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+
+.navbar a {
+    color: black;
+    font-size: 1.1em;
+    margin: 0 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-weight: uppercase;
+    font-weight: capitalize;
+    text-decoration: none;
+}
+
+.navbar .links {
+    margin-right: 40px;
+}
+
+
+img {
+    height: 500px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: -40px;
+    box-sizing: border-box;
+}
+
+ .navbar a:hover {
+    color: white;
+ }
+
+body {
+    margin: 0;
+    line-height: 1.5rem;
+    font-family: SuperGroteskOffc,Helvetica,Arial,sans-serif;
+    --tw-text-opacity: 1;
+    color: rgba(51,51,51,var(--tw-text-opacity));
+    text-rendering: optimizeLegibility;
+}
+
+
+
+
+
