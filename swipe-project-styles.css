@@ -18,6 +18,7 @@
     --p-size: 18px;
     --p-height: 26px;
     --secondary-text-size: 14px;
+    --secondary-text-height: 18px;
     --button-size: 16px;
 
     --spacing-sm: 8px;
@@ -33,7 +34,7 @@
     --bg-white: #fff;
     --bg-light: #f7f9fc;
     --primary-accent: #0a2540;
-    --primary-button-hover-: #6d7a88;
+    --primary-button-hover: #6d7a88;
 }
 
 body {
@@ -43,7 +44,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     padding: var(--spacing-sm) 0 0 0;
-    background-color: var(--purple-1);
+    background-color: var(--bg-white);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -198,6 +199,7 @@ p {
 }
 
 .with-icon > img {
+
     transition: transform 0.25s ease;
 }
 
@@ -218,7 +220,7 @@ p {
     box-sizing: border-box;
 }
 
-.menu {
+.menu  {
     display: flex;
     list-style: none;
     justify-content: center;
@@ -226,7 +228,7 @@ p {
 }
 
 .menu a {
-    color: var(--text-light);
+    color: var(--text-dark);
     margin: 0 var(--spacing-md);
     font-weight: bold;
 }
@@ -359,6 +361,12 @@ p {
 .unified-platform-section .primary-button:hover {
     background-color: var(--primary-accent);
    
+}
+
+/*Graphic Grid Section*/
+
+.graphic-grid {
+    display: grid;
 }
 
 
