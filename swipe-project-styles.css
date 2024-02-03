@@ -928,12 +928,6 @@ p {
     height: 35px;
 }
 
-html,body {
-    width: 100%;
-    position: relative;
-    overflow-x: hidden;
-}
-
 /*Global Scale Section*/
 
 .global-section .card-container {
@@ -947,6 +941,28 @@ html,body {
 }
 
 /*Global Section*/
+
+.global-section .card-container .card {
+    width: 100%;
+    margin: var(--spacing-sm) 0;
+}
+
+#globe {
+    opacity: 10%;
+}
+
+/*Virtual Event Section*/
+.virtual-events-section .swipe-sessions-card{
+    width: 100%;
+}
+
+html,body {
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+
 
 
 

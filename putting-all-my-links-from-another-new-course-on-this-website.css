@@ -1,0 +1,119 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #111;
+    flex-wrap: wrap;
+}
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+    border: 20px solid white;
+    margin: 30px;
+    transition: 0.5s;
+}
+
+.box:hover {
+    box-shadow: 0 40px 0 -20px purple;
+}
+
+.box h2 {
+    position: relative;
+    color: pink;
+    font-size: 3px;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+
+.box:hover h2 {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+h1 {
+    color: white;
+}
+
+a {
+    font-size: 20px;
+    color: white
+}
+
+a:hover {
+    font-size: 50px;
+}
+
+.section-top {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(fixme/coding\ picture.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slide 10s infinite;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.content h1 {
+   letter-spacing: 16px ;
+}
+
+.content a {
+    background: #0984e3;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+p {
+    font-size: 20px;
+    padding: 10px;
+    line-height: 24px;
+    color: white;
+}
+
+@keyframes slide {
+    0% {
+        background-image: url(images/codng\ picture\ 2.jpg);
+    }
+
+    33% {
+        background-image: url(fixme/coding\ pcture\ 3.png);
+    }
+
+    67% {
+        background-image: url(images/codng\ picture\ 2.jpg);
+    }
+
+}
