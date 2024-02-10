@@ -2,6 +2,26 @@ body {
     font-family: 'neuton' , sans-serif;
 }
 
+a {
+    font-size: 30px;
+    font-weight: bold;
+    color: #DC84F3;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover {
+    font-size: 20px;
+    color: white;
+}
+
+.button-1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #E9A8F2;
+}
+
 img {
     height: 30px;
 }
@@ -37,6 +57,7 @@ img {
     align-items: center;
     justify-content: space-between;
 
+
 }
 
 .logo {
@@ -45,12 +66,12 @@ img {
 }
 
 .toggle {
-    position: relative;
-    width: 60px;
-    height: 60px;
-    background: url(images/toggle\ icon.jpg);
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    /*background: url(images/toggle\ icon.jpg);*/
     background-repeat: no-repeat;
-    background-size: 70px;
+    background-size: 60px;
     background-position: center;
     cursor: pointer;
 }
@@ -78,6 +99,68 @@ img {
     z-index: 10;
 }
 
+h1 {
+    padding: 20px;
+}
+
+.text h2 {
+    font-size: 4em;
+    font-weight: 800;
+    line-height: 1em;
+    color:khaki;
+}
+
+h2:hover {
+    letter-spacing: 6px;
+}
+
+.text h3 {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1em;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+h3:hover {
+    font-size: 20px;
+    letter-spacing: 6px;
+}
+
+h4 {
+    font-size: 20px;
+    color: white;
+    letter-spacing: 7px;
+}
+
+h4:hover {
+    font-size: 30px;
+    letter-spacing: 6px;
+}
+
+.text p {
+    font-size: 1.9em;
+    margin: 20px 0;
+    font-weight: 900;
+    max-width: 700px;
+    padding: 20px;
+    align-items: center;
+    color: #F3CCF3;
+}
+
+.text a {
+    display: inline-block;
+   /* font-size: 2em;*/
+   margin-top: 10px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   transition: 0.2s;
+}
+
+/*.text:hover {
+    letter-spacing: 6px;
+}*/
+
 .overlay {
     position: absolute;
     top: 0;
@@ -87,6 +170,23 @@ img {
     background: #03a9f4;
     mix-blend-mode: overlay;
 
+}
+
+.social {
+    position: absolute;
+    bottom: 20px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.social li {
+    list-style: none;
+    padding: 20px;
+    margin: 0px;
+    justify-content: space-between;
 }
 
 /*.menu {
