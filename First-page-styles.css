@@ -1,5 +1,7 @@
 body {
     font-family: 'neuton' , sans-serif;
+    margin: 0;
+    line-height: 1.5;
 }
 
 a {
@@ -188,6 +190,18 @@ h4:hover {
     margin: 0px;
     justify-content: space-between;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*.menu {
     
