@@ -174,7 +174,7 @@ h4:hover {
 
 }
 
-.social {
+/*.social {
     position: absolute;
     bottom: 20px;
     z-index: 10;
@@ -182,18 +182,27 @@ h4:hover {
     justify-content: center;
     align-items: center;
     list-style: none;
-}
+}*/
 
-.social li {
+/*.social li {
     list-style: none;
     padding: 20px;
     margin: 0px;
     justify-content: space-between;
+}*/
+
+
+
+.content-1 {
+     background-color: gray;
+    
+    
 }
 
-
-
-
+.content-2 {
+    background-color: gray;
+   
+}
 
 
 
