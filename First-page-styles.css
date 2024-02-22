@@ -35,13 +35,12 @@ h1 {
 
 h2 {
   color: #2dfe53;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
 }
 
 h2:hover {
   letter-spacing: 6px;
-
 }
 
 button {
@@ -67,7 +66,6 @@ button:hover {
 }
 
 /*To do with button*/
-
 
 p {
   font-family: "dosis", sans-serif;
@@ -154,7 +152,6 @@ img {
   position: relative;
   z-index: 10;
 }
-
 
 .content h1 {
   letter-spacing: 16px;
@@ -306,7 +303,6 @@ img {
   padding: 10px;
   margin: 10px;
   border-radius: 20px;
-
 }
 
 img:hover {
@@ -323,13 +319,13 @@ img:hover {
   display: inline;
 }
 
-.content2{
-  background-color: #BBE2EC;
+.content2 {
+  background-color: #bbe2ec;
   padding: 20px;
 }
 
 .content3 {
-  background-color: #0D9276;
+  background-color: #0d9276;
   margin-top: 20px;
   padding: 20px;
 }
