@@ -239,6 +239,18 @@ html {
   flex-wrap: wrap;
 }
 
+.feature-projects {
+  display: grid;
+  grid-template-columns: 300px auto;
+  width: 100vw;
+  padding: 20px;
+}
+
+.feature-projects .boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .box {
   position: relative;
   width: 300px;
