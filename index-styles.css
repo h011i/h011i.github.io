@@ -1,6 +1,6 @@
 body {
-  font-family: "neuton", sans-serif;
-  /*line-height: 1.5;*/
+    font-family: "neuton", sans-serif;
+    line-height: 1.5;
     font-family: var(--body-font);
     color: var(--text-dark);
     width: 100%;
@@ -517,39 +517,21 @@ li:hover {
 .image1 {
   width: 5%;
   height: 5%;
-
-}
-
-.image2 {
-  width: 5%;
-  height: 5%;
-
-}
-
-h4 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 20px;
-
-}
-
-.image1 {
-  width: 5%;
-  height: 5%;
-
 }
 
 a {
   text-decoration: none;
   font-weight: 500;
   transition: color 0.25s ease;
-
 }
 
 a {
-font-size: 30px;
-font-weight: bold;
-color: white;
-text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
 }
 /*Content two boxes*/
 
