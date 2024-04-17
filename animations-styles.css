@@ -143,7 +143,6 @@ margin: 100px;
         transform: translateX(100%);
     }
 }
-
 @keyframes bounce {
     0% {}
     6% { transform: translateY(0px); }
