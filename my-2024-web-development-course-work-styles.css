@@ -219,3 +219,10 @@ footer li a:hover {
   color: white;
 }
 
+.image1 {
+  width: 50%;
+  height: 50%;
+  padding: 40px;
+  margin: 10px;
+}
+

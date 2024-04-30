@@ -314,7 +314,7 @@ html {
 }
 
 .box:hover {    /*bottom*/
-  box-shadow: 0   40px       0 -20px #C2B7AE	, 
+  box-shadow: 0   40px       0 -10px #C2B7AE	, 
                 /*left*/                      /*right*/
     -40px 0 0 -20px #8B8481 ,         40px       0 0 -20px #8B8481,
              /*Makes the 
@@ -322,6 +322,17 @@ html {
     inset 0    40px         0 -5px #C2B7AE,
 
     -40px 0 0 -20px #b7b9a3, 40px 0 0 -10px 	#f3efe6;
+}
+
+
+.box:hover {    
+  box-shadow: #C2B7AE	0 , 40px , 0 , -10px #C2B7AE	, 
+
+              #8B8481 -40px , 0 , 0 , -20px , 40px , 0  , 0 -20px #8B8481,
+           
+               inset 0 , 40px , 0 , -5px #C2B7AE,
+
+              -40px , 0 , 0 , -20px ,  #b7b9a3 , 40px , 0 , 0 -10px ,#f3efe6;
 }
 
 .boxy:hover:hover {
