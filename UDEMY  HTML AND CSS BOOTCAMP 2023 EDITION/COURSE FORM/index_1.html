@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=  , initial-scale=1.0">
+    <title>Edit Course Landing Page</title>
+</head>
+<body>
+    <h1>My Course Landing Page</h1>
+
+    <form action="/clp">
+    <div> 
+        <label for="title">Course Title</label>
+        <input id="title" type="text" name="title" required>
+    </div>
+
+    <div> 
+        <label for="desc">Course Description</label>
+        <div> 
+        <textarea id="desc" rows="10" cols="30" name="descrption"></textarea>
+    </div>
+    </div>
+        
+    <div> 
+        <label for="level">Skill Level</label>
+        <select id="level"name=level >
+            <option>Beginner Level</option>
+            <option>Intermediate Level</option>
+            <option>Expert Level</option>
+            <option>All Levels</option>
+        </select>
+    </div>
+    
+    <div> 
+        <label for="Publish">Ready To Publish The Course?</label>
+        <input id="Publish" type="checkbox">
+    </div>
+        <button>Submit</button>
+
+    </form>
+    
+</body>
+</html>

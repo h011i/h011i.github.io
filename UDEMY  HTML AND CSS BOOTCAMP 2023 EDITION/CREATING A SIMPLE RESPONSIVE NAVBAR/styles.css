@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    background-color: pink;
+    color: blue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.navbar a {
+    color: blue;
+    font-size: 1.2rem;
+    margin: 0 20px;
+}
+
+@media only screen and (max-width: 769px) {
+    .navbar a {
+    margin: 0 5px;
+   }
+}
+
+@media only screen and (max-width: 502px) {
+    .navbar {
+    flex-direction: column;
+    }
+
+ 
+
+
+.navbar a:hover {
+    color: white;
+}
