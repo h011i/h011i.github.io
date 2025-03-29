@@ -121,16 +121,17 @@ body {
     font-weight: bold;
     letter-spacing: 2px ease;
     opacity: 0;
-    transition: all 0.3s;
+    transition: all 0.4s;
 }
+
 
 .project .overlay:hover {
     opacity: 1;
     cursor: pointer;
 }
 
-.overlay.white {
-    color: black;
+.overlay.white:hover {
+    color: white;
 }
 
 .footer{
@@ -211,5 +212,6 @@ body {
     margin: 3px;
     border-radius: 10px;
 }
+
 
 
