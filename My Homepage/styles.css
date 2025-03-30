@@ -27,6 +27,10 @@ body {
     align-items: center;
 }
 
+.navbar a:hover {
+    opacity: 60%;
+}
+
 .navbar .right a {
     text-decoration: none;
     color: black;
@@ -41,6 +45,7 @@ body {
     width: 24px;
     height: 24px;
 }
+
 
 .project {
    /* width: 600px;*/
