@@ -1,5 +1,5 @@
 body {
-    font-family: "poppins", sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -101,6 +101,15 @@ body {
 
 #dimensional {
     grid-area: dimensional;
+}
+
+div .left {
+    color: pink;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer {
+    color:cadetblue;
 }
 
 
