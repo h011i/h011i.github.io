@@ -56,6 +56,11 @@ h1 {
     border-radius: 30%;
 }*/
 
+div.desc .img:hover {
+    animation: backwards;
+    
+}
+
 div.gallery {
     border: 1px solid #ccc;
 }
