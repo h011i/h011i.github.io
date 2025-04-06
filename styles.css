@@ -1,16 +1,9 @@
 body {
-    font-family: cursive;
-    background-color: lightgray;
-    letter-spacing: 10px;
-}
-
-h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .container {
-  /*  max-width: 90%;*/
+    max-width: 90%;
     margin: 0 auto;
     padding: 0 16px;
 }
@@ -19,17 +12,16 @@ h1 {
     display: flex;
     justify-content: space-between;
     padding: 64px 0;
-    
 }
 
-
 .navbar .left {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: bold;
 }
 
 .navbar .right {
- /*   width: 400px;*/
+    width: 400px;
+   /* border: 1px solid pink;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,64 +32,204 @@ h1 {
 }
 
 .navbar .right a {
-    text-decoration:none;
-    color:beige;
-    font-size: 18px;
-    padding: 20px;
-    padding-left: 100px;
-}
-
-.navbar .right a:hover {
-    text-decoration:underline;
+    text-decoration: none;
     color: black;
 }
 
-/*img {
-    border-radius: 30%;
-}*/
+.navbar .right a:hover{
+    text-decoration: underline;
+    color: black;
+}
 
-.container {
+.navbar .right img {
+    width: 24px;
+    height: 24px;
+}
+
+
+.project {
+   /* width: 600px;*/
+    position: relative;
+}
+
+.project-grid {
     display: grid;
-}
+    grid-template-areas: 
+    "eth eth alphabet"
+    "eth eth traveler"
+    "astro cube traveler"
+    "cup insta insta"
+    "cup insta insta"
+    "foam foam dimensional"
+    "foam foam dimensional";
 
-div.desc .img:hover {
-    animation: backwards;
-    
-}
-
-div.gallery:hover {
-    border: 1px solid white;
-}
-
-div.gallery img {
+    grid-gap: 16px;
     width: 100%;
-    height: auto;
 }
 
-div.desc {
-    padding: 15px;
+#eth {
+    grid-area: eth;
+}
+
+#alphabet {
+    grid-area: alphabet;
+}
+
+#traveler {
+    grid-area: traveler;
+}
+
+#astro {
+    grid-area: astro;
+}
+
+#cube {
+    grid-area: cube;
+}
+
+#cup {
+    grid-area: cup;
+}
+
+#insta {
+    grid-area: insta;
+}
+
+#foam {
+    grid-area: foam;
+}
+
+#dimensional {
+    grid-area: dimensional;
+}
+
+div .left {
+    color: pink;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer {
+    color:cadetblue;
+}
+
+
+
+.project img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;  
+}
+
+.project img:hover {
+    opacity: 70%;
+}
+
+.project .overlay {
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px ease;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+
+.project .overlay:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.overlay.white:hover {
+    color: white;
+}
+
+.footer{
     text-align: center;
+    padding: 64px;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-}
-
-@media only screen and (max-width : 700px) {
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
+@media only screen and (max-width: 1100px) {
+    .container {
+        max-width: 100%;
+    }
+    .project-grid {
+        max-width: 100%;
+        grid-template-areas: 
+        "eth eth "
+        "alphabet traveler"
+        "astro cube"
+        "insta insta "
+        "cup foam"
+        "dimensional dimensional";
     }
 }
 
-@media only screen and (max-width :500px) {
-    .responsive {
-        width: 100%;
+@media only screen and (max-width: 768px) {
+    .navbar .right {
+        display: none;
     }
+    .footer {
+        font-size: 14px;
+        padding: 32px;
+    }
+    .project-grid {
+        max-width: 100%;
+        grid-template-areas: 
+        "eth eth "
+        "alphabet alphabet"
+        "traveler traveler"
+        "astro cube"
+        "insta insta "
+        "cup cup"
+        "foam foam"
+        "dimensional dimensional";
+    }
+   .project .overlay {
+    font-size: 24px;
+   }
 }
+
+.navbar .hamburger {
+    height: 50px;
+    width: 50px;
+}
+
+.navbar .hamburger {
+    display: none;
+}
+
+.navbar .bar1 {
+    background-color: black;
+    height: 4px;
+    width: 36px;
+    margin: 3px;
+    border-radius: 10px;
+}
+
+.navbar .bar2 {
+    background-color: black;
+    height: 4px;
+    width: 36px;
+    margin: 3px;
+    border-radius: 10px;
+}
+
+.navbar .bar3 {
+    background-color: black;
+    height: 4px;
+    width: 36px;
+    margin: 3px;
+    border-radius: 10px;
+}
+
+
+
