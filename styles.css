@@ -20,23 +20,20 @@ body {
 }
 
 .navbar .right {
-    width: 400px;
+    width: 600px;
    /* border: 1px solid pink;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 
-.navbar a:hover {
-    opacity: 60%;
-}
-
-.navbar .right a {
+.navbar .right  {
     text-decoration: none;
     color: black;
 }
 
-.navbar .right a:hover{
+.navbar .right :hover{
     text-decoration: underline;
     color: black;
 }
@@ -44,6 +41,7 @@ body {
 .navbar .right img {
     width: 24px;
     height: 24px;
+    padding: 20px;
 }
 
 
